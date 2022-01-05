@@ -63,9 +63,6 @@ library
       Polysemy.Conc.Sync
   other-modules:
       Prelude
-      Paths_polysemy_conc
-  autogen-modules:
-      Paths_polysemy_conc
   hs-source-dirs:
       lib
   default-extensions:
@@ -160,7 +157,6 @@ test-suite polysemy-conc-unit
       Polysemy.Conc.Test.MonitorTest
       Polysemy.Conc.Test.QueueTest
       Polysemy.Conc.Test.SyncTest
-      Paths_polysemy_conc
   hs-source-dirs:
       test
   default-extensions:
